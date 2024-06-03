@@ -1,0 +1,83 @@
+.list {
+    padding: 0px;
+    margin-top: 50px;
+    
+  }
+  
+  .list li {
+    background-color: #fff;
+    height: 100px;
+    width: 1000px;
+    color: #302b63;
+    font-weight: 800;
+    font-size: 30px;
+    padding: 10px;
+    list-style: none;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 20px;
+  }
+  
+  .actions {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 55px;
+  }
+  
+  .list li.done {
+    background-color: red;
+  }
+  .App {
+    background: linear-gradient(to right, #2592c5, #7c9ba1, #1fd3ea);
+    height: 100vh;
+  }
+  
+  h1 {
+    margin: 0;
+    color: #276897;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 30px;
+    font-weight: 800;
+  }
+  
+  .adder {
+    width: 270px;
+    margin: 0px auto;
+    position: relative;
+    color: #06f1ca;
+  }
+  
+  .adder input {
+    outline: none;
+    border: 3px solid white;
+    background: linear-gradient(to right, #11cbd4, #cddbdb, #06f1ca);
+    color: white;
+    height: 50px;
+    width: 500px;
+    padding-left: 5px;
+    font-weight: 800;
+    font-size: 20px;
+  }
+  
+  .adder span {
+    position: absolute;
+    left: 500px;
+    top: 0;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1.8;
+    cursor: pointer;
+    transition: all 200ms;
+    color: rgb(16, 1, 1);
+  }
+  
+  .adder span:hover {
+    transform: rotate(180deg);
+  }
+  

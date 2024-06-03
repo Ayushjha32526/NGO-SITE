@@ -1,0 +1,93 @@
+body{
+    background-color: black;
+}
+
+.ok {
+    font-size: 4rem;
+    background: rgb(242, 114, 114);
+    font-weight: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     text-align: center;
+     margin-bottom: 100px; /* Move the text down */
+     margin-left: 50px;
+     margin-top: 100px;
+     
+  }
+ 
+  .ok2{
+    
+        width: 800px;
+        height: 50px;
+        background-color: #3b3939; /* Grey color */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff; /* White text color */
+        font-size: 1.5rem;
+        margin-bottom: 50px; /* Move the text down */
+        margin-right: 10px;
+        margin-left: 450px;
+         
+  }
+  .ok3{
+    width: 800px;
+    height: 50px;
+    background-color: #3b3939; /* Grey color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff; /* White text color */
+    font-size: 1.5rem;
+    margin-bottom: 50px; /* Move the text down */
+    margin-right: 10px;
+    margin-left: 450px;
+     
+}
+
+.ok4{
+    
+    width: 800px;
+  
+    
+    height: 200px;
+    background-color: #3b3939; /* Grey color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff; /* White text color */
+    font-size: 1.5rem;
+    margin-bottom: 50px; /* Move the text down */
+    margin-right: 10px;
+    margin-left: 450px;
+}
+.submit-btn {
+    border: 2px solid #ff7f50; /* Orange border */
+    background-color: transparent;
+    color: #ff7f50; /* Orange text color */
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-bottom: 50px; /* Move the text down */
+    margin-right: 10px;
+    border-radius: 50px;
+    margin-left: 800px;
+}
+
+  .submit-btn:hover {
+    background-color: #ff7f50; /* Orange background on hover */
+    color: #fff; /* White text color on hover */
+  }
+
+  .ok5{
+    color: #008000; /* Green text color */
+    font-size: 3rem; /* Big font size */
+    font-weight: bold;
+    text-align: center; 
+   /* Move the text down */
+    margin-left: 50px;
+    margin-top: 100px;
+    
+  }
